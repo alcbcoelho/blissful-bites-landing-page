@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Bites - Um Sonho a Cada Mordida</title>
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quattrocento:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/427f8fb6ae.js" crossorigin="anonymous"></script>
+    <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+    <header class="fixed w-full z-[5]">
+        <div class="container px-4 xl:max-xl+16px:px-2 xl+16px:px-0">
+            <div class="logo-container text-center">
+                <h1 class="text-2xl min-[540px]:text-[2em]/[1.1]">Blissful Bites</h1>
+                <h2 class="text-[0.625em]/[0.75] sm:text-[0.75em]/[1]">Um Sonho a Cada Mordida</h2>
+            </div>
+            <nav class="text-center">
+                <ul>
+                    <li>
+                        <a href="#about">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="fixed side-menu displaced"></div>
+        </div>
+    </header>
+    <section>
+        <div
+            class="container xl:max-xl+16px:px-2 xl+16px:px-0 lg:flex lg:items-start lg:justify-between lg:max-xl:gap-x-4">
+            <div class="mb-6 flex justify-right max-xl:justify-center lg:flex-1 lg:mb-0">
+                <img class="size-1.0" src="./assets/imgs/bakery-facade.jpg" alt="Fachada da padaria/cafeteria Blissful Bites">
+            </div>
+            <div class="md:flex-1">
+                <div id="about">
+                    <h2>Sobre nós</h2>
+                    <p>
+                        Na Blissful Bites, acreditamos que a vida é muito curta para doces ruins. É por isso que nos
+                        dedicamos a criar guloseimas deliciosas e bebidas com café que farão suas papilas gustativas
+                        cantarem. Usamos apenas os ingredientes mais frescos e de alta qualidade, e nossos produtos são
+                        feitos com amor e cuidado.
+                    </p>
+                    <p>
+                        Seja você um amante de doces ou um aficionado por café, temos algo para todos. Nosso menu
+                        apresenta uma grande variedade de bolos, doces, biscoitos e pães frescos, além de uma seleção
+                        completa de bebidas com café, incluindo espressos, lattes e cappuccinos. Também oferecemos
+                        opções veganas e sem glúten para que todos possam desfrutar de um mimo sem culpa.
+                    </p>
+                    <p>
+                        Mais do que apenas uma padaria e cafeteria, a Blissful Bites é um lugar para relaxar e desfrutar
+                        da companhia de amigos e familiares. Nossa atmosfera acolhedora e convidativa o convida a se
+                        demorar e saborear cada mordida e gole. Venha nos visitar hoje e experimente a diferença
+                        Blissful Bites!
+                    </p>
+                </div>
+                <div id="gallery">
+                    <h2>Galeria</h2>
+                    <div class="gallery">
+                        <img src="./assets/imgs/bakery-1.jpg" alt="Nossas guloseimas">
+                        <img src="./assets/imgs/bakery-2.jpg" alt="Nossos bolos, muffins, sonhos e croissants">
+                        <img src="./assets/imgs/bakery-3.jpg" alt="Um freguês se deliciando em nosso ambiente">
+                        <img src="./assets/imgs/bakery-4.jpg" alt="Nosso aconchegante ambiente">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container xl:max-xl+16px:px-2 xl+16px:px-0">
+            <h2>Contato</h2>
+            <div class="contact-methods lg:justify-between lg:flex-row lg:items-start">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" name="" id="" placeholder="Seu nome" required>
+                        <input type="email" name="" id="" placeholder="Seu email" required>
+                        <input type="tel" name="" id="" placeholder="Seu telefone (opcional)">
+                        <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Acompanhe-nos</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" title="Siga-nos no Facebook">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" title="Siga-nos no Instagram">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/" target="_blank" title="Visite nosso canal no YouTube">
+                                <i class="fa-brands fa-square-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Visite-nos</h3>
+                    <p class="mb-0">
+                        Rua Croissant n° 120, Vila Cappuccino - Xique-Xique - BA
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2024 - André Coêlho
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
